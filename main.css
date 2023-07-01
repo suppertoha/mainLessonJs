@@ -1,0 +1,11 @@
+.accordion__item{
+  background-color: #131313;
+  font-size: 24px;
+  color: #fff;
+  padding: 40px;
+}
+
+.accordion__bottom{
+  overflow: hidden;
+  height: 0;
+}

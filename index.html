@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .checkbox {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin-bottom: 15px;
+      }
+
+      .checkbox input {
+        display: none;
+      }
+
+      .checkbox span {
+        text-align: center;
+        width: 20px;
+        height: 20px;
+        display: block;
+        cursor: pointer;
+        background: #568f02;
+        box-sizing: border-box;
+        border-radius: 50%;
+        margin-right: 20px;
+        position: relative;
+      }
+
+      .checkbox input:checked + span {
+        background: #15028f;
+      }
+
+      .main-block {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-block">
+      <label class="checkbox">
+        <input checked type="checkbox" name="toggle" class="checkbox__input" />
+        <span></span>
+      </label>
+      <label class="checkbox">
+        <input checked type="checkbox" name="toggle" class="checkbox__input" />
+        <span></span>
+      </label>
+
+      <label class="checkbox">
+        <input checked type="checkbox" name="toggle" class="checkbox__input" />
+        <span></span>
+      </label>
+
+      <label class="checkbox">
+        <input checked type="checkbox" name="toggle" class="checkbox__input" />
+        <span></span>
+      </label>
+
+      <label class="checkbox">
+        <input checked type="checkbox" name="toggle" class="checkbox__input" />
+        <span></span>
+      </label>
+      <button class="first">1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+
+      <div class="heart"></div>
+      <div class="heart"></div>
+      <div class="heart"></div>
+      <div class="heart"></div>
+    </div>
+
+    <ul class="accordion">
+      <li class="accordion__item">
+        <div class="accordion__top">
+          Нажми
+        </div>
+        <div class="accordion__bottom">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt corrupti incidunt rerum debitis culpa eos accusantium dignissimos quibusdam corporis sequi numquam quas dolorum sed veritatis, consectetur iste? Quod, nostrum.
+        </div>
+      </li>
+    </ul>
+    
+    <!--<script src="main-leson.js"></script>-->
+    <script src="main.js"></script>
+  </body>
+</html>
